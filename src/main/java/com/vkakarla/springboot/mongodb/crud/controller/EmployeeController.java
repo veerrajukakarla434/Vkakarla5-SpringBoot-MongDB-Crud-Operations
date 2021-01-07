@@ -72,7 +72,7 @@ public class EmployeeController {
 	@RequestMapping(value = "/deleteEmployees/{employeeId}", method = RequestMethod.DELETE, produces = "application/json")
 	public ResponseEntity<Object> deleteEmployee(@PathVariable String employeeId) {
 
-		employeeService.deleteEmployees(employeeId);
+		employeeService.deleteEmployee(employeeId);
 		return new ResponseEntity<Object>("Deleted Employee Successfully", HttpStatus.OK);
 	}
 

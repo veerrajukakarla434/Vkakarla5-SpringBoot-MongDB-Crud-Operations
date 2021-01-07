@@ -9,6 +9,6 @@ public interface IEmployeeService {
 	  public List<Employee> getAllEmployees();
 	  public void saveEmployee(Employee employee);
 	  public void updateEmployee(Employee employee);
-	  public void deleteEmployees(String employeeId);
+	  public void deleteEmployee(String employeeId);
 	
 }
