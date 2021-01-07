@@ -20,7 +20,6 @@ public class Vkakarla5SpringBootMongDbCrudOperationsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(Vkakarla5SpringBootMongDbCrudOperationsApplication.class, args);
 	}
-	
 	@Bean
     public Docket swaggerApi() {
         return new Docket(DocumentationType.SWAGGER_2).select()
